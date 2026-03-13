@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "banners": [
+    {
+      "id": "nenrei-launch-2026",
+      "enabled": true,
+      "locales": ["ja", "ja-JP"],
+      "title": "年齢・節目アプリ",
+      "subtitle": "七五三、厄年、還暦を自動計算",
+      "ctaLabel": "無料でダウンロード",
+      "ctaUrl": "https://apps.apple.com/jp/app/id0000000000",
+      "appIconUrl": "",
+      "priority": 1,
+      "startDate": "2026-03-01",
+      "endDate": null
+    }
+  ],
+  "adConfig": {
+    "rewardedAdFrequency": 3
+  }
+}
