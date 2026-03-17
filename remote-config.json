@@ -20,5 +20,8 @@
   ],
   "adConfig": {
     "rewardedAdFrequency": 3
+  },
+  "featureFlags": {
+    "feedbackEnabled": true
   }
 }
