@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "uncensoredModels": [
+    {
+      "id": "Dolphin3.0-Llama3.2-1B-Q4_K_M.gguf",
+      "name": "Dolphin 1B",
+      "sizeBytes": 800000000,
+      "parameterCount": "1B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.2-1B-GGUF/resolve/main/Dolphin3.0-Llama3.2-1B-Q4_K_M.gguf",
+      "minimumRAMGB": 3,
+      "description": "Lightest Dolphin model. Works on any iPhone. Basic chat, simple tasks.",
+      "featured": false
+    },
+    {
+      "id": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+      "name": "Dolphin 3B",
+      "sizeBytes": 1850000000,
+      "parameterCount": "3B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+      "minimumRAMGB": 4,
+      "description": "Great balance of size and quality. Good everyday chat on most iPhones.",
+      "featured": true
+    },
+    {
+      "id": "Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf",
+      "name": "Dolphin 3.0 8B",
+      "sizeBytes": 4800000000,
+      "parameterCount": "8B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf",
+      "minimumRAMGB": 6,
+      "description": "Flagship uncensored model. Latest Dolphin fine-tune on Llama 3.1. Pro.",
+      "featured": true
+    },
+    {
+      "id": "Hermes-3-Llama-3.1-8B-Q4_K_M.gguf",
+      "name": "Hermes 3 8B",
+      "sizeBytes": 4800000000,
+      "parameterCount": "8B",
+      "downloadURL": "https://huggingface.co/bartowski/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B-Q4_K_M.gguf",
+      "minimumRAMGB": 6,
+      "description": "NousResearch's Hermes 3 — strong reasoning, minimal refusals. Pro.",
+      "featured": true
+    },
+    {
+      "id": "Lexi-Llama-3-8B-v2-Q4_K_M.gguf",
+      "name": "Lexi 8B",
+      "sizeBytes": 4920000000,
+      "parameterCount": "8B",
+      "downloadURL": "https://huggingface.co/bartowski/Lexi-Llama-3-8B-v2-GGUF/resolve/main/Lexi-Llama-3-8B-v2-Q4_K_M.gguf",
+      "minimumRAMGB": 6,
+      "description": "Optimised for creative writing, roleplay, and adult fiction. Pro.",
+      "featured": false
+    },
+    {
+      "id": "dolphin-2.9.3-mistral-nemo-12b-Q4_K_M.gguf",
+      "name": "Dolphin Nemo 12B",
+      "sizeBytes": 7700000000,
+      "parameterCount": "12B",
+      "downloadURL": "https://huggingface.co/bartowski/dolphin-2.9.3-mistral-nemo-12b-GGUF/resolve/main/dolphin-2.9.3-mistral-nemo-12b-Q4_K_M.gguf",
+      "minimumRAMGB": 8,
+      "description": "Dolphin fine-tune on Mistral Nemo 12B. Best quality uncensored for Pro Max / 16 Pro. Pro.",
+      "featured": false
+    }
+  ],
+  "regularModels": [
+    {
+      "id": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+      "name": "Qwen 2.5 1.5B",
+      "sizeBytes": 1000000000,
+      "parameterCount": "1.5B",
+      "downloadURL": "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+      "minimumRAMGB": 3,
+      "description": "Alibaba's lightweight model. Surprisingly capable for its size. Works on any iPhone.",
+      "featured": false
+    },
+    {
+      "id": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "name": "Llama 3.2 3B",
+      "sizeBytes": 2000000000,
+      "parameterCount": "3B",
+      "downloadURL": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "minimumRAMGB": 4,
+      "description": "Meta's compact Llama 3.2. Good general-purpose chat on most iPhones.",
+      "featured": false
+    },
+    {
+      "id": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+      "name": "Mistral 7B",
+      "sizeBytes": 4370000000,
+      "parameterCount": "7B",
+      "downloadURL": "https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+      "minimumRAMGB": 6,
+      "description": "Solid all-rounder with minimal guardrails. Free tier.",
+      "featured": true
+    },
+    {
+      "id": "Mistral-Nemo-Instruct-2407-Q4_K_M.gguf",
+      "name": "Mistral Nemo 12B",
+      "sizeBytes": 7700000000,
+      "parameterCount": "12B",
+      "downloadURL": "https://huggingface.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF/resolve/main/Mistral-Nemo-Instruct-2407-Q4_K_M.gguf",
+      "minimumRAMGB": 8,
+      "description": "Mistral's larger model. Noticeably better reasoning for 8GB+ devices.",
+      "featured": false
+    }
+  ]
+}
