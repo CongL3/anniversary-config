@@ -9,7 +9,8 @@
       "downloadURL": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-Q8_0.gguf",
       "minimumRAMGB": 2,
       "description": "Tiny but capable. Great for older devices.",
-      "featured": false
+      "featured": false,
+      "category": "regular"
     },
     {
       "id": "gemma-2-2b-it-q4_k_m.gguf",
@@ -17,9 +18,10 @@
       "sizeBytes": 1500000000,
       "parameterCount": "2B",
       "downloadURL": "https://huggingface.co/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf",
-      "minimumRAMGB": 4,
+      "minimumRAMGB": 3,
       "description": "Google's compact model. Fast and accurate.",
-      "featured": true
+      "featured": true,
+      "category": "regular"
     },
     {
       "id": "llama-3.2-3b-instruct-q4_k_m.gguf",
@@ -27,9 +29,10 @@
       "sizeBytes": 2020000000,
       "parameterCount": "3B",
       "downloadURL": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-      "minimumRAMGB": 4,
+      "minimumRAMGB": 6,
       "description": "Meta's latest. Best overall quality for the size.",
-      "featured": true
+      "featured": true,
+      "category": "regular"
     },
     {
       "id": "qwen2.5-3b-instruct-q4_k_m.gguf",
@@ -39,7 +42,8 @@
       "downloadURL": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/main/qwen2.5-3b-instruct-q4_k_m.gguf",
       "minimumRAMGB": 4,
       "description": "Alibaba's multilingual model. Excellent for CJK languages.",
-      "featured": false
+      "featured": false,
+      "category": "regular"
     },
     {
       "id": "phi-3.5-mini-instruct-q4_k_m.gguf",
@@ -49,7 +53,8 @@
       "downloadURL": "https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf",
       "minimumRAMGB": 6,
       "description": "Microsoft's reasoning model. Strong at math and code.",
-      "featured": false
+      "featured": false,
+      "category": "regular"
     },
     {
       "id": "mistral-7b-instruct-v0.3-q3_k_m.gguf",
@@ -57,9 +62,82 @@
       "sizeBytes": 3280000000,
       "parameterCount": "7B",
       "downloadURL": "https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q3_K_M.gguf",
-      "minimumRAMGB": 6,
+      "minimumRAMGB": 8,
       "description": "Powerful 7B model. Requires 6GB+ RAM.",
-      "featured": false
+      "featured": false,
+      "category": "regular"
+    },
+    {
+      "id": "Dolphin3.0-Llama3.2-1B-Q4_K_M.gguf",
+      "name": "Dolphin 1B",
+      "sizeBytes": 800000000,
+      "parameterCount": "1B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.2-1B-GGUF/resolve/main/Dolphin3.0-Llama3.2-1B-Q4_K_M.gguf",
+      "minimumRAMGB": 3,
+      "description": "Lightest uncensored model. Runs on any iPhone. Short answers, simple tasks.",
+      "featured": false,
+      "category": "uncensored",
+      "chatFamily": "chatML"
+    },
+    {
+      "id": "Dolphin3.0-Qwen2.5-1.5B-Q4_K_M.gguf",
+      "name": "Dolphin Qwen 1.5B",
+      "sizeBytes": 990000000,
+      "parameterCount": "1.5B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Qwen2.5-1.5B-GGUF/resolve/main/Dolphin3.0-Qwen2.5-1.5B-Q4_K_M.gguf",
+      "minimumRAMGB": 3,
+      "description": "Dolphin on a Qwen 2.5 base. Sharper than its size suggests.",
+      "featured": false,
+      "category": "uncensored",
+      "chatFamily": "chatML"
+    },
+    {
+      "id": "gemma-2-2b-it-abliterated-Q4_K_M.gguf",
+      "name": "Gemma 2 2B Uncensored",
+      "sizeBytes": 1710000000,
+      "parameterCount": "2B",
+      "downloadURL": "https://huggingface.co/bartowski/gemma-2-2b-it-abliterated-GGUF/resolve/main/gemma-2-2b-it-abliterated-Q4_K_M.gguf",
+      "minimumRAMGB": 4,
+      "description": "Google's Gemma 2 with its refusals removed. Strong writer for its size.",
+      "featured": false,
+      "category": "uncensored",
+      "chatFamily": "gemma"
+    },
+    {
+      "id": "Dolphin3.0-Qwen2.5-3b-Q4_K_M.gguf",
+      "name": "Dolphin Qwen 3B",
+      "sizeBytes": 1930000000,
+      "parameterCount": "3B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Qwen2.5-3b-GGUF/resolve/main/Dolphin3.0-Qwen2.5-3b-Q4_K_M.gguf",
+      "minimumRAMGB": 4,
+      "description": "Good balance of size and quality. Answers freely on most topics.",
+      "featured": true,
+      "category": "uncensored",
+      "chatFamily": "chatML"
+    },
+    {
+      "id": "Hermes-3-Llama-3.2-3B-Q4_K_M.gguf",
+      "name": "Hermes 3 3B",
+      "sizeBytes": 2020000000,
+      "parameterCount": "3B",
+      "downloadURL": "https://huggingface.co/bartowski/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B-Q4_K_M.gguf",
+      "minimumRAMGB": 6,
+      "description": "NousResearch's Hermes 3. Minimal refusals, good instruction following.",
+      "featured": false,
+      "category": "uncensored",
+      "chatFamily": "chatML"
+    },
+    {
+      "id": "Dolphin3.0-Llama3.1-8B-IQ3_M.gguf",
+      "name": "Dolphin 3.0 8B",
+      "sizeBytes": 3780000000,
+      "parameterCount": "8B",
+      "downloadURL": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-IQ3_M.gguf",
+      "minimumRAMGB": 8,
+      "description": "Strongest uncensored model here. Slow — expect a wait on the first reply.",
+      "featured": false,
+      "category": "uncensored",
+      "chatFamily": "chatML"
     }
   ]
 }
