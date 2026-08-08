@@ -22,6 +22,7 @@
     "rewardedAdFrequency": 3
   },
   "featureFlags": {
-    "feedbackEnabled": true
+    "feedbackEnabled": true,
+    "pairingEnabled": false
   }
 }
