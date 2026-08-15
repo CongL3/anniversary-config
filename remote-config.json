@@ -23,6 +23,6 @@
   },
   "featureFlags": {
     "feedbackEnabled": true,
-    "pairingEnabled": false
+    "pairingEnabled": true
   }
 }
