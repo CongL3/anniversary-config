@@ -1,0 +1,14 @@
+{
+  "adsEnabled": false,
+  "interstitialEnabled": false,
+  "minimumFirstTurns": 10,
+  "minimumFirstActiveSeconds": 300,
+  "minimumTurnsBetweenAds": 6,
+  "minimumSecondsBetweenAds": 240,
+  "maximumInterstitialsPerSession": 2,
+  "maximumInterstitialsPerLocalDay": 6,
+  "regularTurnEnabled": true,
+  "electionEnabled": true,
+  "pmqsEnabled": true,
+  "runEndEnabled": true
+}
