@@ -1,6 +1,6 @@
 {
-  "adsEnabled": false,
-  "interstitialEnabled": false,
+  "adsEnabled": true,
+  "interstitialEnabled": true,
   "minimumFirstTurns": 10,
   "minimumFirstActiveSeconds": 300,
   "minimumTurnsBetweenAds": 6,
