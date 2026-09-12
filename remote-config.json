@@ -23,11 +23,11 @@
   },
   "crossPromotions": [
     {
-      "id": 6767519692,
+      "id": 6765780052,
       "enabled": true,
-      "name": "Live Captions HearBee",
-      "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/62/56/bb6256aa-cd1b-0b1e-6a0d-cc48de96fc0e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "campaignToken": "ann_settings_hearbee",
+      "name": "Captions: Auto Video Subtitles",
+      "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/84/b7/a784b745-b852-b3bf-a40c-ba94bee1b4b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "campaignToken": "ann_settings_captions",
       "locales": [],
       "priority": 20
     },
